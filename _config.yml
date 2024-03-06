@@ -1,129 +1,129 @@
-# Welcome to Jekyll!
+# 지킬에 오신 것을 환영합니다!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 이 구성 파일은 전체 사이트, 값에 영향을 미치는 설정을 위한 것입니다.
+# 한 번 설정할 것으로 예상되며 그 이후에는 거의 편집할 필요가 없습니다.
+# 기술적인 이유로 이 파일은 사용할 때 자동으로 다시 로드됩니다.
+# 지킬 서브. 이 파일을 변경하시면 서버 프로세스를 다시 시작해 주시기 바랍니다.
 
-# Theme Settings
+# 테마 설정
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+# 문서를 검토하여 'theme' 또는 'remote_theme'을 사용해야 하는지 결정합니다.
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/ #theme설치
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# 주제: "minimal-mistakes-지킬"
+# remote_theme : "실수/minimal-mistakes"
+미니멀_mistakes_스킨    : "기본값" # "공기", "aqua", "contrast", "어두운", "dirt", "neon", "mint", "sunrise"
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
+# 사이트 설정
+로캘                   : "en-US"
+제목                    : "사이트 제목"
+title_ 구분자          : "-"
+부제                 : # 마스트헤드에서 사이트 제목 아래에 나타나는 사이트 태그라인
+이름.                     : "너의 이름"
+묘사              : "놀라운 웹사이트."
+url                      : "https://Casey100906.github.io "
+바젤                  : # 사이트의 하위 경로(예: "/blog")
+저장소               : # GitHub 사용자 이름/repo-name(예: "실수/최소 실수")
+티저                   : # 폴백 티저 이미지 경로(예: "/ 자산/ 이미지/ 500x300.png")
+로고                     : # 마스트헤드에 표시할 로고 이미지 경로(예: "/ assets/ images/88x88.png")
+마스트헤드_title           : # 마스트헤드에 표시된 웹 사이트 제목을 재정의하고 제목에 대해 ""를 사용합니다.
+# 빵가루 : false # true, false(기본값)
+단어_분당_         : 200
+평.:
+  제공자               : # false(기본값), "disquus", "discourse", "facebook", "staticman", "staticman_v2", "utter", "giscus", "custom"
+  디스커스:
+    약칭            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  담화:
+    서버               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 예: meta.discourse.org
+  페이스북:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey                :
-  secret                 :
+    경쾌한                :
+    num_posts            : # 5(기본값)
+    색도          : # "light"(기본값), "dark"
+  언사:
+    주제                : # "github-라이트"(기본값), "github-다크"
+    issue_term           : # "pathname"(기본값)
+  지커스:
+    repo_id              : # giscus 설정 중 https://giscus.app 에서 표시됨
+    카테고리_이름        : # 카테고리의 전체 텍스트 이름
+    category_id          : # giscus 설정 중 https://giscus.app 에서 표시됨
+    토론_용어      : # "pathname"(기본값), "url", "title", "og:title"
+    reactions_enabled    : # 활성화된 경우 '1'(기본값), 비활성화된 경우 '0'
+    주제                : # "light(기본값)", "dark", "dark_dimmed", "transpa렌트_dark", "preferred_color_scheme"
+  정적인 사람:
+    분점               : # "마스터"
+    엔드포인트             : # "https://{당신의 스태틱맨 v3 API}/v3/엔트리/github/"
+리캡차:
+  사이트키                :
+  시크릿                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-lunr:
-  search_within_pages    : # true, false (default)
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
+  경로.                   : # blank(기본값)는 feed.xml을 사용합니다.
+  숨다                   : # 참, 거짓(기본값)
+서치                   : # 참, 거짓(기본값)
+search_full_content      : # 참, 거짓(기본값)
+검색_provider          : # lunr(기본값), 알골리아, 구글
+런너:
+  검색_인_페이지    : # 참, 거짓(기본값)
+녹조:
+  application_id         : # YOUR_APPY_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
+  파워바이             : # 참(기본값), 거짓
+구글:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
+  인스턴트_검색         : # 거짓(기본값), 참
+# SEO관련
+구글_사이트_검증 :
+bing_site_검증   :
+네이버_사이트_검증  :
+yandex_site_검증 :
+바이두_사이트_검증  :
 
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
+# 소셜 셰어링
+트위터:
+  사용자 이름               :
+페이스북:
+  사용자 이름               :
   app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
+  출판인              :
+og_image                 : # 그래프/트위터 기본 사이트 이미지 열기
+# 소셜 프로파일을 지정하기 위해
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+사회의:
+  유형                   : # 사용자 또는 조직(사용자에 대한 기본값)
+  이름.                   : # 사용자 또는 조직 이름이 사이트 이름과 다른 경우
+  링크: # 소셜 미디어 프로필에 대한 일련의 링크
 
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+# 분석
+분석:
+  제공자 : false # false (기본값), "google", "google-universal", "google-gtag", "custom"
+  구글:
+    트래킹_id          :
+    익명_ip         : # 참, 거짓(기본값)
 
 
-# Site Author
-author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+# 사이트 작성자
+작가.:
+  이름.             : "너의 이름"
+  아바타           : # 아바타 이미지의 경로(예: "/assets/images/바이오 포토.jpg"
+  생물학              : "나는 **놀라운** 사람입니다."
+  위치         : "어디선가"
+  이메일            :
+  링크:
+    - 라벨.: "이메일"
+      아이콘: "fas 봉투 광장"
+      # url: "mail to:your.name@email.com "
+    - 라벨.: "웹사이트"
+      아이콘: "fas fa-fw fa-link"
+      # url: "https://your-website.com "
+    - 라벨.: "트위터"
+      아이콘: "fab twitter 광장"
+      # url: "https://twitter.com/ "
+    - 라벨.: "페이스북"
+      아이콘: "fab facebook 광장"
+      # url: "https://facebook.com/ "
+    - 라벨.: "깃허브"
+      아이콘: "fab 파프 파프 파 github"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -153,71 +153,71 @@ footer:
 
 
 # Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
+포함하다:
+-   .htaccess
+-   _페이지
+제외.:
+  - "*.sublime-프로젝트"
   - "*.sublime-workspace"
-  - vendor
+-   판매업자
   - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
+-   .bundle
+-   .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+-   자산/js/플러그인
+-   자산/js/_main.js
+-   자산/js/vendor
+-   캡파일
+-   CHANGELOG
+-   컨피그
+-   젬파일
+-   그룬트파일.js
+-   gulpfile.js
+-   라이센스
+-   통나무를 만들다
+-   node_modules
+-   꾸러미json
+-   package-lock.json
+-   레이크파일
+-   읽기
+-   tmp
+-   /docs # 최소 실수 무시 /docs
+-   /test # 최소 실수 무시 /test
 keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+-   .깃
+-   .sv.
+부호화: "utf-8"
+마크다운_ext: "마크다운, mk다운, mkdn, mkd,md"
 
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+# 전환
+마크다운: 크램다운
+형광펜:연지
+lsi: 거짓의
+발췌_separator: "\n\n"
+점증적인: 거짓의
 
 
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
+# 마크다운 처리
+크램다운:
+  입력 : GFM
+  하드_wrap: 거짓의
+  auto_ids: 진실의
+  각주_nr: 1
+  엔티티_출력: as_char
+  toc_ 레벨: 1~6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  enable_coderray: false
 
 
-# Sass/SCSS
+# 새스/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: 압축# https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
-permalink: /:categories/:title/
+# 출력중
+permalink: /:카테고리/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
